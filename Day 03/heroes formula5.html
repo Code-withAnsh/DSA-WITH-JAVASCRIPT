@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = Number(prompt("Enter a first Number:"))
+        let b = Number(prompt("Enter a second number:"))
+        let c  = Number(prompt("Enter a third Number:"))
+
+        //heroes formula-- see notes
+        if(a+b <=c || a+c <=b || c+b<=a){
+            console.log("not possible")
+        }else{
+            let s = (a+b+c)/2
+            console.log(Math.sqrt(s*(s-a)*(s-b)*(s-c)));
+        } 
+
+        
+
+
+    </script>
+</body>
+</html>
