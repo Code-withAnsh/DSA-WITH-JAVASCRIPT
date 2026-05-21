@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let rating = Number(prompt("enter rating"));
+        let name = prompt("enter movie name")
+        if(rating>=0.0 && rating<=2.0){
+            console.log(`${name} is flop`)
+        }else if(rating>=2.1 && rating<=3.4){
+            console.log(`${name}is semi-hit`);
+
+        }else if(rating>=3.5 && rating<=4.5){
+            console.log(`${name} is hit `)
+        }else if(rating>=4.6 && rating<=5.0){
+            console.log(`${name} is a hit movie`)
+        }else{
+            console.log("enter valid rating")
+        }
+    </script>
+</body>
+</html>
