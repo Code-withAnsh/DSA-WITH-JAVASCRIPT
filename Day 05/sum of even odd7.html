@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //print the sum of all even & odd numbers in a range seperately
+        let n = Number(prompt('enter a number'))
+        let even = 0; odd = 0;
+        for(let i=0;i<=n;i++){
+            if(i%2==0){
+                even+=i
+            }else{
+                odd+i
+            }
+        }
+        console.log('total even sum' +even)
+        console.log('total odd sum' +odd)
+
+    </script>
+</body>
+</html>
